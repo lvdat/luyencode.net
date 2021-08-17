@@ -7,5 +7,4 @@ def solve(n):
         i += 1
     return tong == n
 n = int(input())
-if solve(n): print("YES")
-else: print("NO")
+print("{}".format("YES" if solve(n) else "NO"))
